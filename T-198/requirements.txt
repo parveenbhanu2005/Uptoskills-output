@@ -1,0 +1,5 @@
+opencv-python==4.8.1.78
+mediapipe==0.10.7
+pandas==2.1.1
+numpy==1.26.1
+retina-face==0.0.18
