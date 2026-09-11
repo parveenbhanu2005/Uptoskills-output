@@ -1,0 +1,334 @@
+[
+  {
+    "timestamp": "21:55:40",
+    "frame_number": 1,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G1",
+      "G2"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G1",
+      "G2"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:40] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:55:41",
+    "frame_number": 8,
+    "event_type": "STABLE_GROUP",
+    "previous_groups": [
+      "G1"
+    ],
+    "new_groups": [
+      "G1"
+    ],
+    "group_id": "G1",
+    "related_group_ids": [
+      "G1"
+    ],
+    "location": [
+      1052,
+      386
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.12,
+    "message": "[21:55:41] STABLE GROUP DETECTED: Group G1 (3 peds) sustained stability for 8 frames [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:41",
+    "frame_number": 8,
+    "event_type": "STABLE_GROUP",
+    "previous_groups": [
+      "G2"
+    ],
+    "new_groups": [
+      "G2"
+    ],
+    "group_id": "G2",
+    "related_group_ids": [
+      "G2"
+    ],
+    "location": [
+      203,
+      359
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.12,
+    "message": "[21:55:41] STABLE GROUP DETECTED: Group G2 (3 peds) sustained stability for 8 frames [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:45",
+    "frame_number": 50,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G1",
+      "G2"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G1",
+      "G2"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:45] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:55:48",
+    "frame_number": 100,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G1",
+      "G2"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G1",
+      "G2"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:48] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:55:50",
+    "frame_number": 129,
+    "event_type": "GROUP_MERGED",
+    "previous_groups": [
+      "G1",
+      "G2"
+    ],
+    "new_groups": [
+      "G3"
+    ],
+    "group_id": "G3",
+    "related_group_ids": [
+      "G1",
+      "G2"
+    ],
+    "location": [
+      602,
+      379
+    ],
+    "confidence": 0.97,
+    "risk_score": 0.35,
+    "message": "[21:55:50] GROUP MERGED: Previous Groups (G1, G2) merged into New Group G3 at (602, 379) [Confidence: 97%]."
+  },
+  {
+    "timestamp": "21:55:50",
+    "frame_number": 132,
+    "event_type": "STABLE_GROUP",
+    "previous_groups": [
+      "G3"
+    ],
+    "new_groups": [
+      "G3"
+    ],
+    "group_id": "G3",
+    "related_group_ids": [
+      "G3"
+    ],
+    "location": [
+      602,
+      380
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.12,
+    "message": "[21:55:50] STABLE GROUP DETECTED: Group G3 (6 peds) sustained stability for 8 frames [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:51",
+    "frame_number": 150,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G3"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G3"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:51] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:55:53",
+    "frame_number": 166,
+    "event_type": "GROUP_SPLIT",
+    "previous_groups": [
+      "G3"
+    ],
+    "new_groups": [
+      "G1",
+      "G2"
+    ],
+    "group_id": "G3",
+    "related_group_ids": [
+      "G1",
+      "G2"
+    ],
+    "location": [
+      665,
+      399
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.3,
+    "message": "[21:55:53] GROUP SPLIT: Previous Group G3 separated into New Groups (G1, G2) at (665, 399) [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:55",
+    "frame_number": 200,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G4"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G4"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:55] HIGH CROWD DENSITY DETECTED: Density=0.06510, Pedestrians=6 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:55:56",
+    "frame_number": 209,
+    "event_type": "STABLE_GROUP",
+    "previous_groups": [
+      "G4"
+    ],
+    "new_groups": [
+      "G4"
+    ],
+    "group_id": "G4",
+    "related_group_ids": [
+      "G4"
+    ],
+    "location": [
+      667,
+      422
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.12,
+    "message": "[21:55:56] STABLE GROUP DETECTED: Group G4 (3 peds) sustained stability for 8 frames [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:56",
+    "frame_number": 214,
+    "event_type": "STABLE_GROUP",
+    "previous_groups": [
+      "G5"
+    ],
+    "new_groups": [
+      "G5"
+    ],
+    "group_id": "G5",
+    "related_group_ids": [
+      "G5"
+    ],
+    "location": [
+      528,
+      353
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.12,
+    "message": "[21:55:56] STABLE GROUP DETECTED: Group G5 (3 peds) sustained stability for 8 frames [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:56",
+    "frame_number": 217,
+    "event_type": "GROUP_SPLIT",
+    "previous_groups": [
+      "G3"
+    ],
+    "new_groups": [
+      "G4",
+      "G5"
+    ],
+    "group_id": "G3",
+    "related_group_ids": [
+      "G4",
+      "G5"
+    ],
+    "location": [
+      694,
+      438
+    ],
+    "confidence": 0.96,
+    "risk_score": 0.3,
+    "message": "[21:55:56] GROUP SPLIT: Previous Group G3 separated into New Groups (G4, G5) at (694, 438) [Confidence: 96%]."
+  },
+  {
+    "timestamp": "21:55:58",
+    "frame_number": 250,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G4",
+      "G5"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G4",
+      "G5"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:55:58] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  },
+  {
+    "timestamp": "21:56:02",
+    "frame_number": 300,
+    "event_type": "HIGH_CROWD_DENSITY",
+    "previous_groups": [],
+    "new_groups": [
+      "G4",
+      "G5"
+    ],
+    "group_id": "ALL",
+    "related_group_ids": [
+      "G4",
+      "G5"
+    ],
+    "location": [
+      640,
+      360
+    ],
+    "confidence": 0.95,
+    "risk_score": 0.55,
+    "message": "[21:56:02] HIGH CROWD DENSITY DETECTED: Density=0.08681, Pedestrians=8 [Confidence: 95%]."
+  }
+]
