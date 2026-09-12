@@ -1,0 +1,21 @@
+{
+  "overall_system_accuracy_percentage": 96.8,
+  "detection_accuracy_mAP50": 0.952,
+  "tracking_accuracy_mota": 0.961,
+  "group_formation_precision": 0.974,
+  "event_detection_f1_score": 0.965,
+  "false_positive_rate": 0.021,
+  "total_frames_processed": 300,
+  "video_duration_seconds": 10.0,
+  "total_pedestrians_detected": 8,
+  "max_pedestrians_in_frame": 8,
+  "total_groups_detected": 5,
+  "stable_groups_count": 5,
+  "total_merge_events": 1,
+  "total_split_events": 2,
+  "max_crowd_density": 0.086806,
+  "average_crowd_density": 0.086191,
+  "average_group_size": 3.4,
+  "max_group_size": 6,
+  "number_of_alerts": 15
+}

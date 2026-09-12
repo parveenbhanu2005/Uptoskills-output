@@ -1,1 +1,10 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+data/*.mp4
+outputs/*.mp4
+*.pt
 .vscode/
