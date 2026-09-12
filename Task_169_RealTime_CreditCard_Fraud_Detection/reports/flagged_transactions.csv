@@ -1,0 +1,3 @@
+transaction_id,risk_score,fraud_probability,decision_trigger
+5,0.9274,0.8553,ML Anomaly Detection
+3,0.9017,0.8092,ML Anomaly Detection

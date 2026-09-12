@@ -1,0 +1,15 @@
+{
+    "node_id": "EDGE_NODE_01",
+    "camera_gps": {
+        "latitude": 29.9792,
+        "longitude": 78.4348
+    },
+    "detection_threshold": 0.3,
+    "perimeter_boundary": {
+        "line_type": "horizontal",
+        "position_ratio": 0.5,
+        "direction": "downward"
+    },
+    "alert_recipient_sms": "+919876543210",
+    "storage_max_size_mb": 50.0
+}

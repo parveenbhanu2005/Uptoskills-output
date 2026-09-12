@@ -1,0 +1,6 @@
+Transaction_ID,Risk_Score,Fraud_Probability,Decision_Trigger
+1,1.0,1.0,Unknown Merchant
+2,1.0,1.0,Unknown Merchant
+3,1.0,1.0,Unknown Merchant
+4,0.99,1.0,Unknown Merchant
+5,1.0,1.0,"Unknown Merchant, Geo Velocity Spike"

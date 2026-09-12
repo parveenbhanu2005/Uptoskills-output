@@ -1,0 +1,18 @@
+{
+    "project": "Smart Document Tampering Detection",
+    "analysis_time": "2026-08-12T19:33:12.799125",
+    "input_document": "C:\\Users\\Admin\\tampering-detection\\input\\sample.png",
+    "reference_document": null,
+    "image_width": 1536,
+    "image_height": 1024,
+    "sha256": "54a6ec055e9bce09314a178fc9182d2d61b0ef74d07a695939507d29c68d5e1e",
+    "ocr_regions": 141,
+    "text_layout_anomalies": 125,
+    "visual_anomalies": 0,
+    "changed_area_percentage": 0,
+    "ela_score": 14.2046,
+    "suspicious_regions": 0,
+    "tampering_confidence": 0.0,
+    "risk_level": "LOW",
+    "reference_comparison_used": false
+}

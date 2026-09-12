@@ -1,0 +1,3 @@
+Product ID,Category,Color,Material,Pattern,Title,Tags,Compliance,Studio Image,800x800,600x600,400x400
+P001,Headphones,Black,Rubber,Plain,Black Headphones,"headphones, black, rubber, product, ecommerce",COMPLIANT,images/studio_product.png,images/resized/product_800x800.jpg,images/resized/product_600x600.jpg,images/resized/product_400x400.jpg
+P002,Nike shoes,Blue,Leather,None,Blue Nike shoes,"nike shoes, blue, leather, product, ecommerce",COMPLIANT,images/shoe_studio.png,images/resized/shoe_800x800.jpg,images/resized/shoe_600x600.jpg,images/resized/shoe_400x400.jpg

@@ -1,0 +1,345 @@
+Video_Source,Event_ID,Timestamp,Timestamp_Sec,Frame_Number,Track_ID,Object_Class,Violation_Type,Severity,Evidence_Snapshot
+Real Video 1,EVT_0001,0:00:01,1.5,45,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0001_id1.jpg
+Real Video 1,EVT_0002,0:00:01,1.5,45,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0002_id3.jpg
+Real Video 1,EVT_0003,0:00:01,1.5,45,4,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0003_id4.jpg
+Real Video 1,EVT_0004,0:00:01,1.5,45,5,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0004_id5.jpg
+Real Video 1,EVT_0005,0:00:01,1.5,45,6,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0005_id6.jpg
+Real Video 1,EVT_0006,0:00:01,1.5,45,11,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0006_id11.jpg
+Real Video 1,EVT_0007,0:00:01,1.5,45,22,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0007_id22.jpg
+Real Video 1,EVT_0008,0:00:01,1.53,46,9,chair,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0008_id9.jpg
+Real Video 1,EVT_0009,0:00:01,1.73,52,27,chair,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0009_id27.jpg
+Real Video 1,EVT_0010,0:00:01,1.8,54,29,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0010_id29.jpg
+Real Video 1,EVT_0011,0:00:02,2.0,60,35,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0011_id35.jpg
+Real Video 1,EVT_0012,0:00:02,2.47,74,43,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0012_id43.jpg
+Real Video 1,EVT_0013,0:00:03,3.0,90,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0013_id3.jpg
+Real Video 1,EVT_0014,0:00:03,3.0,90,4,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0014_id4.jpg
+Real Video 1,EVT_0015,0:00:03,3.0,90,6,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0015_id6.jpg
+Real Video 1,EVT_0016,0:00:03,3.0,90,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0016_id5.jpg
+Real Video 1,EVT_0017,0:00:03,3.0,90,22,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0017_id22.jpg
+Real Video 1,EVT_0018,0:00:03,3.1,93,55,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0018_id55.jpg
+Real Video 1,EVT_0019,0:00:03,3.13,94,56,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0019_id56.jpg
+Real Video 1,EVT_0020,0:00:03,3.37,101,58,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0020_id58.jpg
+Real Video 1,EVT_0021,0:00:03,3.5,105,63,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0021_id63.jpg
+Real Video 1,EVT_0022,0:00:03,3.57,107,67,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0022_id67.jpg
+Real Video 1,EVT_0023,0:00:03,3.63,109,69,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0023_id69.jpg
+Real Video 1,EVT_0024,0:00:03,3.7,111,71,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0024_id71.jpg
+Real Video 1,EVT_0025,0:00:03,3.93,118,79,chair,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0025_id79.jpg
+Real Video 1,EVT_0026,0:00:03,3.97,119,43,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0026_id43.jpg
+Real Video 1,EVT_0027,0:00:03,3.97,119,82,oven,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_1/violation_EVT_0027_id82.jpg
+Real Video 1,EVT_0028,0:00:04,4.0,120,85,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0028_id85.jpg
+Real Video 1,EVT_0029,0:00:04,4.1,123,91,oven,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0029_id91.jpg
+Real Video 1,EVT_0030,0:00:04,4.27,128,95,chair,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0030_id95.jpg
+Real Video 1,EVT_0031,0:00:04,4.5,135,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0031_id3.jpg
+Real Video 1,EVT_0032,0:00:04,4.5,135,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0032_id5.jpg
+Real Video 1,EVT_0033,0:00:04,4.63,139,55,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0033_id55.jpg
+Real Video 1,EVT_0034,0:00:04,4.7,141,22,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0034_id22.jpg
+Real Video 1,EVT_0035,0:00:04,4.87,146,58,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0035_id58.jpg
+Real Video 1,EVT_0036,0:00:04,4.93,148,109,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0036_id109.jpg
+Real Video 1,EVT_0037,0:00:05,5.0,150,63,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0037_id63.jpg
+Real Video 1,EVT_0038,0:00:05,5.03,151,111,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0038_id111.jpg
+Real Video 1,EVT_0039,0:00:05,5.13,154,69,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0039_id69.jpg
+Real Video 1,EVT_0040,0:00:05,5.2,156,71,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0040_id71.jpg
+Real Video 1,EVT_0041,0:00:05,5.53,166,43,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0041_id43.jpg
+Real Video 1,EVT_0042,0:00:06,6.0,180,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0042_id3.jpg
+Real Video 1,EVT_0043,0:00:06,6.0,180,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0043_id5.jpg
+Real Video 1,EVT_0044,0:00:06,6.13,184,55,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0044_id55.jpg
+Real Video 1,EVT_0045,0:00:06,6.13,184,128,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0045_id128.jpg
+Real Video 1,EVT_0046,0:00:06,6.17,185,129,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0046_id129.jpg
+Real Video 1,EVT_0047,0:00:06,6.33,190,130,chair,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_1/violation_EVT_0047_id130.jpg
+Real Video 1,EVT_0048,0:00:06,6.5,195,141,handbag,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0048_id141.jpg
+Real Video 1,EVT_0049,0:00:06,6.53,196,63,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0049_id63.jpg
+Real Video 1,EVT_0050,0:00:06,6.63,199,69,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0050_id69.jpg
+Real Video 1,EVT_0051,0:00:06,6.7,201,71,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0051_id71.jpg
+Real Video 1,EVT_0052,0:00:06,6.83,205,147,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0052_id147.jpg
+Real Video 1,EVT_0053,0:00:06,6.93,208,151,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0053_id151.jpg
+Real Video 1,EVT_0054,0:00:06,6.93,208,58,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0054_id58.jpg
+Real Video 1,EVT_0055,0:00:07,7.33,220,175,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0055_id175.jpg
+Real Video 1,EVT_0056,0:00:07,7.47,224,187,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0056_id187.jpg
+Real Video 1,EVT_0057,0:00:07,7.5,225,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0057_id3.jpg
+Real Video 1,EVT_0058,0:00:07,7.5,225,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0058_id5.jpg
+Real Video 1,EVT_0059,0:00:07,7.57,227,197,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0059_id197.jpg
+Real Video 1,EVT_0060,0:00:07,7.63,229,55,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0060_id55.jpg
+Real Video 1,EVT_0061,0:00:07,7.7,231,129,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0061_id129.jpg
+Real Video 1,EVT_0062,0:00:08,8.1,243,141,handbag,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0062_id141.jpg
+Real Video 1,EVT_0063,0:00:08,8.13,244,69,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0063_id69.jpg
+Real Video 1,EVT_0064,0:00:08,8.13,244,219,clock,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0064_id219.jpg
+Real Video 1,EVT_0065,0:00:08,8.17,245,198,chair,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_1/violation_EVT_0065_id198.jpg
+Real Video 1,EVT_0066,0:00:08,8.43,253,151,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0066_id151.jpg
+Real Video 1,EVT_0067,0:00:08,8.43,253,58,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0067_id58.jpg
+Real Video 1,EVT_0068,0:00:08,8.57,257,226,dining table,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_1/violation_EVT_0068_id226.jpg
+Real Video 1,EVT_0069,0:00:08,8.8,264,237,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0069_id237.jpg
+Real Video 1,EVT_0070,0:00:08,8.83,265,175,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0070_id175.jpg
+Real Video 1,EVT_0071,0:00:08,8.83,265,243,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0071_id243.jpg
+Real Video 1,EVT_0072,0:00:09,9.0,270,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0072_id3.jpg
+Real Video 1,EVT_0073,0:00:09,9.0,270,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0073_id5.jpg
+Real Video 1,EVT_0074,0:00:09,9.0,270,249,chair,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0074_id249.jpg
+Real Video 1,EVT_0075,0:00:09,9.1,273,251,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0075_id251.jpg
+Real Video 1,EVT_0076,0:00:09,9.27,278,257,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0076_id257.jpg
+Real Video 1,EVT_0077,0:00:09,9.6,288,141,handbag,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0077_id141.jpg
+Real Video 1,EVT_0078,0:00:09,9.63,289,69,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0078_id69.jpg
+Real Video 1,EVT_0079,0:00:09,9.93,298,273,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0079_id273.jpg
+Real Video 1,EVT_0080,0:00:10,10.27,308,281,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_1/violation_EVT_0080_id281.jpg
+Real Video 1,EVT_0081,0:00:10,10.33,310,175,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0081_id175.jpg
+Real Video 1,EVT_0082,0:00:10,10.5,315,3,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0082_id3.jpg
+Real Video 1,EVT_0083,0:00:10,10.73,322,237,laptop,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0083_id237.jpg
+Real Video 1,EVT_0084,0:00:10,10.93,328,283,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0084_id283.jpg
+Real Video 1,EVT_0085,0:00:10,10.93,328,284,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0085_id284.jpg
+Real Video 1,EVT_0086,0:00:10,10.93,328,285,dining table,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0086_id285.jpg
+Real Video 1,EVT_0087,0:00:10,10.93,328,287,handbag,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0087_id287.jpg
+Real Video 1,EVT_0088,0:00:10,10.93,328,288,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0088_id288.jpg
+Real Video 1,EVT_0089,0:00:11,11.13,334,69,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_1/violation_EVT_0089_id69.jpg
+Real Video 2,EVT_0090,0:00:01,1.5,45,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0090_id1.jpg
+Real Video 2,EVT_0091,0:00:01,1.5,45,3,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0091_id3.jpg
+Real Video 2,EVT_0092,0:00:01,1.9,57,17,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0092_id17.jpg
+Real Video 2,EVT_0093,0:00:01,1.97,59,19,remote,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0093_id19.jpg
+Real Video 2,EVT_0094,0:00:03,3.0,90,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0094_id1.jpg
+Real Video 2,EVT_0095,0:00:03,3.37,101,41,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0095_id41.jpg
+Real Video 2,EVT_0096,0:00:03,3.4,102,43,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0096_id43.jpg
+Real Video 2,EVT_0097,0:00:04,4.33,130,63,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0097_id63.jpg
+Real Video 2,EVT_0098,0:00:04,4.5,135,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0098_id1.jpg
+Real Video 2,EVT_0099,0:00:04,4.9,147,43,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0099_id43.jpg
+Real Video 2,EVT_0100,0:00:05,5.33,160,75,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0100_id75.jpg
+Real Video 2,EVT_0101,0:00:06,6.0,180,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0101_id1.jpg
+Real Video 2,EVT_0102,0:00:07,7.33,220,79,train,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0102_id79.jpg
+Real Video 2,EVT_0103,0:00:07,7.5,225,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0103_id1.jpg
+Real Video 2,EVT_0104,0:00:08,8.83,265,79,train,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0104_id79.jpg
+Real Video 2,EVT_0105,0:00:09,9.0,270,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0105_id1.jpg
+Real Video 2,EVT_0106,0:00:10,10.33,310,79,train,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0106_id79.jpg
+Real Video 2,EVT_0107,0:00:10,10.5,315,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0107_id1.jpg
+Real Video 2,EVT_0108,0:00:11,11.83,355,79,train,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0108_id79.jpg
+Real Video 2,EVT_0109,0:00:12,12.0,360,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0109_id1.jpg
+Real Video 2,EVT_0110,0:00:13,13.33,400,79,train,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0110_id79.jpg
+Real Video 2,EVT_0111,0:00:13,13.5,405,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0111_id1.jpg
+Real Video 2,EVT_0112,0:00:13,13.83,415,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0112_id83.jpg
+Real Video 2,EVT_0113,0:00:15,15.0,450,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0113_id1.jpg
+Real Video 2,EVT_0114,0:00:15,15.33,460,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0114_id83.jpg
+Real Video 2,EVT_0115,0:00:15,15.83,475,93,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_2/violation_EVT_0115_id93.jpg
+Real Video 2,EVT_0116,0:00:16,16.37,491,97,sink,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0116_id97.jpg
+Real Video 2,EVT_0117,0:00:16,16.5,495,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0117_id1.jpg
+Real Video 2,EVT_0118,0:00:16,16.77,503,101,sink,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0118_id101.jpg
+Real Video 2,EVT_0119,0:00:16,16.87,506,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0119_id83.jpg
+Real Video 2,EVT_0120,0:00:18,18.0,540,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0120_id1.jpg
+Real Video 2,EVT_0121,0:00:18,18.43,553,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0121_id83.jpg
+Real Video 2,EVT_0122,0:00:19,19.13,574,125,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0122_id125.jpg
+Real Video 2,EVT_0123,0:00:19,19.3,579,129,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0123_id129.jpg
+Real Video 2,EVT_0124,0:00:19,19.5,585,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0124_id1.jpg
+Real Video 2,EVT_0125,0:00:19,19.5,585,135,suitcase,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0125_id135.jpg
+Real Video 2,EVT_0126,0:00:19,19.93,598,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0126_id83.jpg
+Real Video 2,EVT_0127,0:00:20,20.17,605,142,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0127_id142.jpg
+Real Video 2,EVT_0128,0:00:20,20.8,624,129,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0128_id129.jpg
+Real Video 2,EVT_0129,0:00:21,21.0,630,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0129_id1.jpg
+Real Video 2,EVT_0130,0:00:21,21.0,630,135,suitcase,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0130_id135.jpg
+Real Video 2,EVT_0131,0:00:21,21.03,631,151,sink,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_2/violation_EVT_0131_id151.jpg
+Real Video 2,EVT_0132,0:00:21,21.3,639,155,sink,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_2/violation_EVT_0132_id155.jpg
+Real Video 2,EVT_0133,0:00:21,21.5,645,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0133_id83.jpg
+Real Video 2,EVT_0134,0:00:22,22.0,660,161,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0134_id161.jpg
+Real Video 2,EVT_0135,0:00:22,22.5,675,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0135_id1.jpg
+Real Video 2,EVT_0136,0:00:22,22.53,676,151,sink,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0136_id151.jpg
+Real Video 2,EVT_0137,0:00:22,22.67,680,135,suitcase,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0137_id135.jpg
+Real Video 2,EVT_0138,0:00:23,23.0,690,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0138_id83.jpg
+Real Video 2,EVT_0139,0:00:23,23.27,698,169,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0139_id169.jpg
+Real Video 2,EVT_0140,0:00:23,23.4,702,170,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0140_id170.jpg
+Real Video 2,EVT_0141,0:00:24,24.0,720,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0141_id1.jpg
+Real Video 2,EVT_0142,0:00:24,24.17,725,135,suitcase,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0142_id135.jpg
+Real Video 2,EVT_0143,0:00:24,24.17,725,173,chair,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0143_id173.jpg
+Real Video 2,EVT_0144,0:00:24,24.5,735,83,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_2/violation_EVT_0144_id83.jpg
+Real Video 3,EVT_0145,0:00:01,1.5,45,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0145_id1.jpg
+Real Video 3,EVT_0146,0:00:01,1.5,45,2,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0146_id2.jpg
+Real Video 3,EVT_0147,0:00:01,1.5,45,3,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0147_id3.jpg
+Real Video 3,EVT_0148,0:00:01,1.5,45,5,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0148_id5.jpg
+Real Video 3,EVT_0149,0:00:01,1.5,45,6,tie,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0149_id6.jpg
+Real Video 3,EVT_0150,0:00:01,1.5,45,7,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0150_id7.jpg
+Real Video 3,EVT_0151,0:00:01,1.5,45,8,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0151_id8.jpg
+Real Video 3,EVT_0152,0:00:01,1.5,45,9,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0152_id9.jpg
+Real Video 3,EVT_0153,0:00:01,1.5,45,10,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0153_id10.jpg
+Real Video 3,EVT_0154,0:00:01,1.5,45,14,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0154_id14.jpg
+Real Video 3,EVT_0155,0:00:03,3.47,104,24,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0155_id24.jpg
+Real Video 3,EVT_0156,0:00:03,3.5,105,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0156_id25.jpg
+Real Video 3,EVT_0157,0:00:03,3.5,105,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0157_id26.jpg
+Real Video 3,EVT_0158,0:00:03,3.5,105,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0158_id27.jpg
+Real Video 3,EVT_0159,0:00:03,3.5,105,29,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0159_id29.jpg
+Real Video 3,EVT_0160,0:00:03,3.5,105,31,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0160_id31.jpg
+Real Video 3,EVT_0161,0:00:03,3.5,105,32,tie,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0161_id32.jpg
+Real Video 3,EVT_0162,0:00:03,3.5,105,33,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0162_id33.jpg
+Real Video 3,EVT_0163,0:00:03,3.5,105,34,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0163_id34.jpg
+Real Video 3,EVT_0164,0:00:03,3.5,105,35,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0164_id35.jpg
+Real Video 3,EVT_0165,0:00:03,3.53,106,37,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0165_id37.jpg
+Real Video 3,EVT_0166,0:00:03,3.77,113,41,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0166_id41.jpg
+Real Video 3,EVT_0167,0:00:03,3.9,117,44,cup,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0167_id44.jpg
+Real Video 3,EVT_0168,0:00:04,4.37,131,55,cup,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0168_id55.jpg
+Real Video 3,EVT_0169,0:00:04,4.83,145,63,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0169_id63.jpg
+Real Video 3,EVT_0170,0:00:05,5.0,150,24,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0170_id24.jpg
+Real Video 3,EVT_0171,0:00:05,5.0,150,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0171_id25.jpg
+Real Video 3,EVT_0172,0:00:05,5.0,150,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0172_id26.jpg
+Real Video 3,EVT_0173,0:00:05,5.0,150,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0173_id27.jpg
+Real Video 3,EVT_0174,0:00:05,5.0,150,29,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0174_id29.jpg
+Real Video 3,EVT_0175,0:00:05,5.0,150,31,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0175_id31.jpg
+Real Video 3,EVT_0176,0:00:05,5.0,150,33,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0176_id33.jpg
+Real Video 3,EVT_0177,0:00:05,5.0,150,34,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0177_id34.jpg
+Real Video 3,EVT_0178,0:00:05,5.0,150,35,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0178_id35.jpg
+Real Video 3,EVT_0179,0:00:05,5.0,150,32,tie,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0179_id32.jpg
+Real Video 3,EVT_0180,0:00:05,5.77,173,68,tie,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0180_id68.jpg
+Real Video 3,EVT_0181,0:00:05,5.93,178,71,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0181_id71.jpg
+Real Video 3,EVT_0182,0:00:06,6.33,190,63,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0182_id63.jpg
+Real Video 3,EVT_0183,0:00:06,6.5,195,24,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0183_id24.jpg
+Real Video 3,EVT_0184,0:00:06,6.5,195,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0184_id25.jpg
+Real Video 3,EVT_0185,0:00:06,6.5,195,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0185_id26.jpg
+Real Video 3,EVT_0186,0:00:06,6.5,195,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0186_id27.jpg
+Real Video 3,EVT_0187,0:00:06,6.5,195,31,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0187_id31.jpg
+Real Video 3,EVT_0188,0:00:06,6.5,195,33,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0188_id33.jpg
+Real Video 3,EVT_0189,0:00:06,6.5,195,35,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0189_id35.jpg
+Real Video 3,EVT_0190,0:00:06,6.7,201,29,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0190_id29.jpg
+Real Video 3,EVT_0191,0:00:06,6.8,204,34,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0191_id34.jpg
+Real Video 3,EVT_0192,0:00:06,6.83,205,81,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0192_id81.jpg
+Real Video 3,EVT_0193,0:00:07,7.0,210,84,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0193_id84.jpg
+Real Video 3,EVT_0194,0:00:07,7.43,223,71,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0194_id71.jpg
+Real Video 3,EVT_0195,0:00:07,7.83,235,63,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0195_id63.jpg
+Real Video 3,EVT_0196,0:00:08,8.0,240,24,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0196_id24.jpg
+Real Video 3,EVT_0197,0:00:08,8.0,240,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0197_id25.jpg
+Real Video 3,EVT_0198,0:00:08,8.0,240,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0198_id26.jpg
+Real Video 3,EVT_0199,0:00:08,8.0,240,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0199_id27.jpg
+Real Video 3,EVT_0200,0:00:08,8.0,240,31,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0200_id31.jpg
+Real Video 3,EVT_0201,0:00:08,8.0,240,33,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0201_id33.jpg
+Real Video 3,EVT_0202,0:00:08,8.0,240,35,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0202_id35.jpg
+Real Video 3,EVT_0203,0:00:08,8.23,247,29,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0203_id29.jpg
+Real Video 3,EVT_0204,0:00:08,8.33,250,81,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0204_id81.jpg
+Real Video 3,EVT_0205,0:00:08,8.93,268,71,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0205_id71.jpg
+Real Video 3,EVT_0206,0:00:09,9.23,277,107,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0206_id107.jpg
+Real Video 3,EVT_0207,0:00:09,9.37,281,110,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0207_id110.jpg
+Real Video 3,EVT_0208,0:00:09,9.47,284,113,cup,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0208_id113.jpg
+Real Video 3,EVT_0209,0:00:09,9.5,285,24,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0209_id24.jpg
+Real Video 3,EVT_0210,0:00:09,9.5,285,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0210_id25.jpg
+Real Video 3,EVT_0211,0:00:09,9.5,285,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0211_id26.jpg
+Real Video 3,EVT_0212,0:00:09,9.5,285,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0212_id27.jpg
+Real Video 3,EVT_0213,0:00:09,9.5,285,31,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0213_id31.jpg
+Real Video 3,EVT_0214,0:00:09,9.5,285,33,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0214_id33.jpg
+Real Video 3,EVT_0215,0:00:09,9.5,285,35,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0215_id35.jpg
+Real Video 3,EVT_0216,0:00:09,9.63,289,119,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0216_id119.jpg
+Real Video 3,EVT_0217,0:00:09,9.63,289,120,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0217_id120.jpg
+Real Video 3,EVT_0218,0:00:09,9.63,289,121,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0218_id121.jpg
+Real Video 3,EVT_0219,0:00:10,10.1,303,124,cup,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0219_id124.jpg
+Real Video 3,EVT_0220,0:00:10,10.33,310,136,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0220_id136.jpg
+Real Video 3,EVT_0221,0:00:10,10.33,310,138,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0221_id138.jpg
+Real Video 3,EVT_0222,0:00:10,10.47,314,30,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0222_id30.jpg
+Real Video 3,EVT_0223,0:00:10,10.53,316,141,tie,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0223_id141.jpg
+Real Video 3,EVT_0224,0:00:10,10.6,318,142,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0224_id142.jpg
+Real Video 3,EVT_0225,0:00:10,10.63,319,143,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0225_id143.jpg
+Real Video 3,EVT_0226,0:00:10,10.87,326,149,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0226_id149.jpg
+Real Video 3,EVT_0227,0:00:10,10.97,329,107,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0227_id107.jpg
+Real Video 3,EVT_0228,0:00:11,11.0,330,24,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0228_id24.jpg
+Real Video 3,EVT_0229,0:00:11,11.0,330,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0229_id25.jpg
+Real Video 3,EVT_0230,0:00:11,11.0,330,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0230_id26.jpg
+Real Video 3,EVT_0231,0:00:11,11.0,330,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0231_id27.jpg
+Real Video 3,EVT_0232,0:00:11,11.47,344,120,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0232_id120.jpg
+Real Video 3,EVT_0233,0:00:11,11.53,346,169,cup,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0233_id169.jpg
+Real Video 3,EVT_0234,0:00:11,11.6,348,119,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0234_id119.jpg
+Real Video 3,EVT_0235,0:00:11,11.63,349,177,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0235_id177.jpg
+Real Video 3,EVT_0236,0:00:11,11.67,350,181,oven,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0236_id181.jpg
+Real Video 3,EVT_0237,0:00:11,11.77,353,185,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0237_id185.jpg
+Real Video 3,EVT_0238,0:00:11,11.83,355,136,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0238_id136.jpg
+Real Video 3,EVT_0239,0:00:11,11.83,355,187,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0239_id187.jpg
+Real Video 3,EVT_0240,0:00:11,11.97,359,30,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0240_id30.jpg
+Real Video 3,EVT_0241,0:00:12,12.03,361,141,tie,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0241_id141.jpg
+Real Video 3,EVT_0242,0:00:12,12.03,361,189,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0242_id189.jpg
+Real Video 3,EVT_0243,0:00:12,12.17,365,191,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0243_id191.jpg
+Real Video 3,EVT_0244,0:00:12,12.23,367,193,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0244_id193.jpg
+Real Video 3,EVT_0245,0:00:12,12.47,374,107,tie,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0245_id107.jpg
+Real Video 3,EVT_0246,0:00:12,12.5,375,24,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0246_id24.jpg
+Real Video 3,EVT_0247,0:00:12,12.5,375,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0247_id25.jpg
+Real Video 3,EVT_0248,0:00:12,12.5,375,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0248_id26.jpg
+Real Video 3,EVT_0249,0:00:12,12.5,375,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0249_id27.jpg
+Real Video 3,EVT_0250,0:00:12,12.97,389,120,bottle,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0250_id120.jpg
+Real Video 3,EVT_0251,0:00:13,13.1,393,119,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0251_id119.jpg
+Real Video 3,EVT_0252,0:00:13,13.33,400,136,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0252_id136.jpg
+Real Video 3,EVT_0253,0:00:13,13.33,400,187,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0253_id187.jpg
+Real Video 3,EVT_0254,0:00:13,13.47,404,30,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0254_id30.jpg
+Real Video 3,EVT_0255,0:00:13,13.77,413,238,tie,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0255_id238.jpg
+Real Video 3,EVT_0256,0:00:14,14.0,420,24,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0256_id24.jpg
+Real Video 3,EVT_0257,0:00:14,14.0,420,25,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0257_id25.jpg
+Real Video 3,EVT_0258,0:00:14,14.0,420,26,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0258_id26.jpg
+Real Video 3,EVT_0259,0:00:14,14.0,420,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0259_id27.jpg
+Real Video 3,EVT_0260,0:00:14,14.3,429,251,cup,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0260_id251.jpg
+Real Video 3,EVT_0261,0:00:14,14.53,436,255,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0261_id255.jpg
+Real Video 3,EVT_0262,0:00:14,14.53,436,256,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0262_id256.jpg
+Real Video 3,EVT_0263,0:00:14,14.53,436,257,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0263_id257.jpg
+Real Video 3,EVT_0264,0:00:14,14.83,445,269,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0264_id269.jpg
+Real Video 3,EVT_0265,0:00:14,14.97,449,30,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_3/violation_EVT_0265_id30.jpg
+Real Video 3,EVT_0266,0:00:15,15.5,465,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0266_id27.jpg
+Real Video 3,EVT_0267,0:00:16,16.03,481,255,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0267_id255.jpg
+Real Video 3,EVT_0268,0:00:17,17.0,510,27,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_3/violation_EVT_0268_id27.jpg
+Real Video 3,EVT_0269,0:00:17,17.37,521,279,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0269_id279.jpg
+Real Video 3,EVT_0270,0:00:17,17.53,526,255,person,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_3/violation_EVT_0270_id255.jpg
+Real Video 4,EVT_0271,0:00:01,1.5,45,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0271_id1.jpg
+Real Video 4,EVT_0272,0:00:01,1.5,45,2,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0272_id2.jpg
+Real Video 4,EVT_0273,0:00:01,1.5,45,4,refrigerator,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_4/violation_EVT_0273_id4.jpg
+Real Video 4,EVT_0274,0:00:03,3.0,90,2,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0274_id2.jpg
+Real Video 4,EVT_0275,0:00:03,3.0,90,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0275_id1.jpg
+Real Video 4,EVT_0276,0:00:03,3.57,107,27,remote,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0276_id27.jpg
+Real Video 4,EVT_0277,0:00:04,4.5,135,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0277_id1.jpg
+Real Video 4,EVT_0278,0:00:04,4.53,136,29,bottle,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0278_id29.jpg
+Real Video 4,EVT_0279,0:00:05,5.53,166,31,refrigerator,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_4/violation_EVT_0279_id31.jpg
+Real Video 4,EVT_0280,0:00:06,6.0,180,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0280_id1.jpg
+Real Video 4,EVT_0281,0:00:06,6.1,183,33,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0281_id33.jpg
+Real Video 4,EVT_0282,0:00:07,7.5,225,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0282_id1.jpg
+Real Video 4,EVT_0283,0:00:07,7.6,228,33,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0283_id33.jpg
+Real Video 4,EVT_0284,0:00:09,9.0,270,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0284_id1.jpg
+Real Video 4,EVT_0285,0:00:09,9.1,273,33,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0285_id33.jpg
+Real Video 4,EVT_0286,0:00:09,9.2,276,41,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0286_id41.jpg
+Real Video 4,EVT_0287,0:00:10,10.5,315,1,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0287_id1.jpg
+Real Video 4,EVT_0288,0:00:10,10.6,318,45,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0288_id45.jpg
+Real Video 4,EVT_0289,0:00:12,12.1,363,45,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0289_id45.jpg
+Real Video 4,EVT_0290,0:00:13,13.6,408,45,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0290_id45.jpg
+Real Video 4,EVT_0291,0:00:14,14.7,441,1,bed,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0291_id1.jpg
+Real Video 4,EVT_0292,0:00:15,15.1,453,45,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0292_id45.jpg
+Real Video 4,EVT_0293,0:00:16,16.2,486,1,bed,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0293_id1.jpg
+Real Video 4,EVT_0294,0:00:16,16.77,503,45,book,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0294_id45.jpg
+Real Video 4,EVT_0295,0:00:17,17.6,528,69,suitcase,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0295_id69.jpg
+Real Video 4,EVT_0296,0:00:19,19.27,578,66,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0296_id66.jpg
+Real Video 4,EVT_0297,0:00:19,19.27,578,70,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0297_id70.jpg
+Real Video 4,EVT_0298,0:00:20,20.77,623,66,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0298_id66.jpg
+Real Video 4,EVT_0299,0:00:20,20.77,623,70,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_4/violation_EVT_0299_id70.jpg
+Real Video 5,EVT_0300,0:00:01,1.5,45,9,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0300_id9.jpg
+Real Video 5,EVT_0301,0:00:01,1.5,45,10,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0301_id10.jpg
+Real Video 5,EVT_0302,0:00:01,1.5,45,12,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0302_id12.jpg
+Real Video 5,EVT_0303,0:00:02,2.13,64,19,microwave,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0303_id19.jpg
+Real Video 5,EVT_0304,0:00:03,3.0,90,9,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0304_id9.jpg
+Real Video 5,EVT_0305,0:00:03,3.0,90,10,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0305_id10.jpg
+Real Video 5,EVT_0306,0:00:03,3.63,109,19,microwave,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0306_id19.jpg
+Real Video 5,EVT_0307,0:00:03,3.8,114,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0307_id20.jpg
+Real Video 5,EVT_0308,0:00:05,5.13,154,19,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0308_id19.jpg
+Real Video 5,EVT_0309,0:00:05,5.3,159,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0309_id20.jpg
+Real Video 5,EVT_0310,0:00:06,6.43,193,29,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0310_id29.jpg
+Real Video 5,EVT_0311,0:00:06,6.63,199,19,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0311_id19.jpg
+Real Video 5,EVT_0312,0:00:06,6.8,204,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0312_id20.jpg
+Real Video 5,EVT_0313,0:00:08,8.23,247,39,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0313_id39.jpg
+Real Video 5,EVT_0314,0:00:08,8.3,249,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0314_id20.jpg
+Real Video 5,EVT_0315,0:00:08,8.9,267,19,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0315_id19.jpg
+Real Video 5,EVT_0316,0:00:09,9.43,283,40,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0316_id40.jpg
+Real Video 5,EVT_0317,0:00:09,9.8,294,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0317_id20.jpg
+Real Video 5,EVT_0318,0:00:09,9.8,294,39,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0318_id39.jpg
+Real Video 5,EVT_0319,0:00:10,10.4,312,19,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0319_id19.jpg
+Real Video 5,EVT_0320,0:00:11,11.3,339,20,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0320_id20.jpg
+Real Video 5,EVT_0321,0:00:11,11.3,339,39,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0321_id39.jpg
+Real Video 5,EVT_0322,0:00:11,11.9,357,19,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0322_id19.jpg
+Real Video 5,EVT_0323,0:00:12,12.7,381,41,bottle,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0323_id41.jpg
+Real Video 5,EVT_0324,0:00:12,12.8,384,39,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0324_id39.jpg
+Real Video 5,EVT_0325,0:00:14,14.2,426,41,bottle,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0325_id41.jpg
+Real Video 5,EVT_0326,0:00:14,14.3,429,39,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0326_id39.jpg
+Real Video 5,EVT_0327,0:00:15,15.7,471,41,bottle,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0327_id41.jpg
+Real Video 5,EVT_0328,0:00:15,15.8,474,39,bowl,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0328_id39.jpg
+Real Video 5,EVT_0329,0:00:16,16.1,483,1,apple,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0329_id1.jpg
+Real Video 5,EVT_0330,0:00:16,16.1,483,2,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_5/violation_EVT_0330_id2.jpg
+Real Video 5,EVT_0331,0:00:16,16.1,483,3,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0331_id3.jpg
+Real Video 5,EVT_0332,0:00:16,16.13,484,135,apple,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0332_id135.jpg
+Real Video 5,EVT_0333,0:00:16,16.13,484,136,bowl,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_5/violation_EVT_0333_id136.jpg
+Real Video 5,EVT_0334,0:00:16,16.13,484,137,bowl,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0334_id137.jpg
+Real Video 5,EVT_0335,0:00:17,17.43,523,143,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0335_id143.jpg
+Real Video 5,EVT_0336,0:00:18,18.43,553,157,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0336_id157.jpg
+Real Video 5,EVT_0337,0:00:18,18.63,559,161,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0337_id161.jpg
+Real Video 5,EVT_0338,0:00:18,18.93,568,143,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0338_id143.jpg
+Real Video 5,EVT_0339,0:00:19,19.93,598,157,refrigerator,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0339_id157.jpg
+Real Video 5,EVT_0340,0:00:20,20.03,601,173,apple,Restricted Access (Biohazard Restricted Zone); Missing Safety Goggles / Lab Coat,HIGH,evidence/real_video_5/violation_EVT_0340_id173.jpg
+Real Video 5,EVT_0341,0:00:20,20.43,613,143,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0341_id143.jpg
+Real Video 5,EVT_0342,0:00:21,21.87,656,144,oven,Restricted Access (Biohazard Restricted Zone),HIGH,evidence/real_video_5/violation_EVT_0342_id144.jpg
+Real Video 5,EVT_0343,0:00:21,21.93,658,143,person,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0343_id143.jpg
+Real Video 5,EVT_0344,0:00:22,22.4,672,1,tv,Missing Safety Goggles / Lab Coat,MEDIUM,evidence/real_video_5/violation_EVT_0344_id1.jpg

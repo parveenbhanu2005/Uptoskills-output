@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Document Tampering Detection</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            margin: 0;
+        }
+
+        .container {
+            width: 700px;
+            margin: 80px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1f2937;
+        }
+
+        p {
+            color: #555;
+        }
+
+        input[type="file"] {
+            margin: 25px;
+            padding: 10px;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 14px 30px;
+            border-radius: 7px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Smart Document Tampering Detection</h1>
+
+    <p>
+        Upload a document image to analyze possible tampering,
+        modifications and suspicious regions.
+    </p>
+
+    <form action="/analyze" method="POST" enctype="multipart/form-data">
+
+        <input
+            type="file"
+            name="document"
+            accept=".png,.jpg,.jpeg"
+            required
+        >
+
+        <br>
+
+        <button type="submit">
+            Analyze Document
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

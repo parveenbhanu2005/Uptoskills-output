@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Large model files / weights
+Models/*.pt
+Models/*.onnx
+Models/*.engine
+
+# Large video files and temp outputs
+Inputs/*.mp4
+Inputs/*.json
+Outputs/*.mp4
+Outputs/logs/*.log
+Outputs/logs/*.csv
+Outputs/snapshots/*.jpg
+*.mp4

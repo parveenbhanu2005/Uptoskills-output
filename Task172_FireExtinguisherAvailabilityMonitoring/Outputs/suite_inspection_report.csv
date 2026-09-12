@@ -1,0 +1,7 @@
+Timestamp,Frame,Station_ID,Station_Name,Status,Details
+2026-08-12 14:01:28.556,5,1,Auto-Detected Station 01,Present & Clear,None
+2026-08-12 14:01:29.329,56,1,Auto-Detected Station 01,Blocked,Blocked by Box/Obstacle
+2026-08-12 14:01:29.809,85,1,Auto-Detected Station 01,Present & Clear,None
+2026-08-12 14:01:31.215,173,1,Auto-Detected Station 01,Blocked,Blocked by Box/Obstacle
+2026-08-12 14:01:31.702,205,1,Auto-Detected Station 01,Missing,None
+2026-08-12 14:01:33.218,305,1,Auto-Detected Station 01,Missing & Displaced,Extinguisher displaced elsewhere

@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+numpy>=1.26.0
+opencv-python>=4.9.0.80
+torch>=2.2.0
+torchvision>=0.17.0
+python-multipart>=0.0.9
+requests>=2.31.0
+ultralytics>=8.4.112

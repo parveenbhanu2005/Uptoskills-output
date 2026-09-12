@@ -1,0 +1,56 @@
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Project generated directories
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+snapshots/*
+!snapshots/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# Weights (except best.pt placeholder if committed)
+*.pt
+*.onnx
+*.engine
+!models/best.pt
+
+# IDE / OS specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

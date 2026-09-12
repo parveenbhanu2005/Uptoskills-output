@@ -1,0 +1,336 @@
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:12:14.890286
+Input: input/sample.png
+Reference: None
+Confidence: 5.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 125
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:13:03.133735
+Input: input/tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 40.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 102
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:23:21.305023
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 5.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 125
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:26:01.559323
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 5.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 125
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:26:51.792669
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 40.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 102
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:37:58.041830
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 5.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 125
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:53:43.914210
+Input: input/sample.png
+Reference: None
+Confidence: 5.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 125
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 17:53:58.028302
+Input: input/tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 40.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 102
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:01:48.670242
+Input: input/sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:02:05.446893
+Input: input/tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:04:54.201989
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:13:10.642222
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:16:36.538635
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:17:22.750682
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:45:58.414146
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:46:51.742703
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:51:15.732674
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:53:27.461658
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 18:55:46.984666
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:06:00.707984
+Input: input/sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:15:21.666043
+Input: input/sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:15:30.094044
+Input: input/tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:16:30.758973
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:17:14.911330
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:32:18.182300
+Input: input/sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:32:26.293316
+Input: input/tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:33:12.799125
+Input: C:\Users\Admin\tampering-detection\input\sample.png
+Reference: None
+Confidence: 0.00%
+Risk: LOW
+Changed area: 0.0000%
+Visual anomalies: 0
+Suspicious regions: 0
+
+======================================================================
+SMART DOCUMENT TAMPERING VERIFICATION
+======================================================================
+Time: 2026-08-12 19:33:28.494180
+Input: C:\Users\Admin\tampering-detection\input\tampered_sample.png
+Reference: C:\Users\Admin\tampering-detection\input\sample.png
+Confidence: 35.00%
+Risk: MEDIUM
+Changed area: 0.3805%
+Visual anomalies: 5
+Suspicious regions: 5

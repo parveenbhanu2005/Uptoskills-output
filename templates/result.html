@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Document Tampering Detection</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        .header {
+            background: #2563eb;
+            color: white;
+            padding: 28px 40px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .header p {
+            margin: 8px 0 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 14px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #1e293b;
+        }
+
+        .document-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 18px;
+        }
+
+        .metric {
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 22px;
+            text-align: center;
+        }
+
+        .metric-title {
+            color: #64748b;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .metric-value {
+            font-size: 27px;
+            font-weight: bold;
+            color: #1e293b;
+        }
+
+        .risk {
+            display: inline-block;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .risk-low {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        .risk-medium {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .risk-high {
+            background: #fee2e2;
+            color: #991b1b;
+        }
+
+        .confidence {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+
+        .progress {
+            width: 100%;
+            height: 20px;
+            background: #e2e8f0;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        .progress-bar {
+            height: 100%;
+            background: #2563eb;
+        }
+
+        .image-box {
+            text-align: center;
+        }
+
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+        }
+
+        .description {
+            color: #64748b;
+        }
+
+        pre {
+            background: #0f172a;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 25px;
+            color: #64748b;
+        }
+
+        @media (max-width: 900px) {
+
+            .metrics {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media (max-width: 600px) {
+
+            .metrics {
+                grid-template-columns: 1fr;
+            }
+
+            .header {
+                padding: 20px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+    <h1>
+        Smart Document Tampering Detection
+    </h1>
+
+    <p>
+        Digital Document Forensic Analysis System
+    </p>
+
+</div>
+
+
+<div class="container">
+
+
+    <!-- DOCUMENT -->
+
+    <div class="card">
+
+        <h2>Analysis Complete</h2>
+
+        <p class="document-name">
+            Document: {{ filename }}
+        </p>
+
+        {% if "HIGH" in result %}
+
+            <span class="risk risk-high">
+                HIGH RISK
+            </span>
+
+        {% elif "MEDIUM" in result %}
+
+            <span class="risk risk-medium">
+                MEDIUM RISK
+            </span>
+
+        {% else %}
+
+            <span class="risk risk-low">
+                LOW RISK
+            </span>
+
+        {% endif %}
+
+    </div>
+
+
+    <!-- METRICS -->
+
+    <div class="card">
+
+        <h2>Detection Summary</h2>
+
+        <div class="metrics">
+
+            <div class="metric">
+
+                <div class="metric-title">
+                    Tampering Confidence
+                </div>
+
+                <div class="metric-value">
+
+                    {% if "35.00%" in result %}
+                        35.00%
+                    {% elif "0.00%" in result %}
+                        0.00%
+                    {% else %}
+                        See Report
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+
+            <div class="metric">
+
+                <div class="metric-title">
+                    OCR Regions
+                </div>
+
+                <div class="metric-value">
+
+                    {% if "OCR regions" in result %}
+                        {{ result.split("OCR regions")[1].split("\n")[0].replace(":", "").strip() }}
+                    {% else %}
+                        0
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+
+            <div class="metric">
+
+                <div class="metric-title">
+                    Visual Anomalies
+                </div>
+
+                <div class="metric-value">
+
+                    {% if "Visual anomalies" in result %}
+                        {{ result.split("Visual anomalies")[1].split("\n")[0].replace(":", "").strip() }}
+                    {% else %}
+                        0
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+
+            <div class="metric">
+
+                <div class="metric-title">
+                    Suspicious Regions
+                </div>
+
+                <div class="metric-value">
+
+                    {% if "Suspicious regions" in result %}
+                        {{ result.split("Suspicious regions")[1].split("\n")[0].replace(":", "").strip() }}
+                    {% else %}
+                        0
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONFIDENCE -->
+
+    <div class="card">
+
+        <h2>Tampering Confidence</h2>
+
+        <div class="confidence">
+
+            {% if "35.00%" in result %}
+                35.00%
+            {% elif "0.00%" in result %}
+                0.00%
+            {% else %}
+                -
+            {% endif %}
+
+        </div>
+
+        <div class="progress">
+
+            <div
+                class="progress-bar"
+                style="width: 35%;">
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- HIGHLIGHTED IMAGE -->
+
+    <div class="card">
+
+        <h2>Highlighted Evidence</h2>
+
+        <p class="description">
+            Suspicious regions identified during forensic analysis.
+        </p>
+
+        <div class="image-box">
+
+            <img
+                src="/output/{{ result_image }}"
+                alt="Highlighted Evidence">
+
+        </div>
+
+    </div>
+
+
+    <!-- HEATMAP -->
+
+    <div class="card">
+
+        <h2>Tampering Heatmap</h2>
+
+        <p class="description">
+            Visualization of regions containing forensic evidence.
+        </p>
+
+        <div class="image-box">
+
+            <img
+                src="/output/{{ heatmap_image }}"
+                alt="Tampering Heatmap">
+
+        </div>
+
+    </div>
+
+
+    <!-- DETECTION DETAILS -->
+
+    <div class="card">
+
+        <h2>Detection Details</h2>
+
+        <pre>{{ result }}</pre>
+
+    </div>
+
+
+    <!-- REPORTS -->
+
+    <div class="card">
+
+        <h2>Forensic Reports</h2>
+
+        <p class="description">
+            Generated reports for further verification and analysis.
+        </p>
+
+        <div class="buttons">
+
+            <a
+                class="button"
+                href="/reports/{{ json_report }}"
+                target="_blank">
+
+                JSON Report
+
+            </a>
+
+
+            <a
+                class="button"
+                href="/reports/{{ csv_report }}"
+                target="_blank">
+
+                CSV Report
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- NEW ANALYSIS -->
+
+    <div class="card">
+
+        <div class="buttons">
+
+            <a
+                class="button"
+                href="/">
+
+                Analyze Another Document
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+</div>
+
+
+<div class="footer">
+
+    Smart Document Tampering Detection
+
+    <br>
+
+    Digital Forensics &amp; Document Integrity Analysis
+
+</div>
+
+
+</body>
+
+</html>

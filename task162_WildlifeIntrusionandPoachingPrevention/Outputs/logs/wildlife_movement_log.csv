@@ -1,0 +1,6 @@
+timestamp,event_id,gps_latitude,gps_longitude,detected_category,count,severity_level,perimeter_status,alert_sent,snapshot_filename
+2026-08-04T18:55:12.410854,5ce2208b,29.979200,78.434800,Human Intruder,1,MEDIUM,inside,YES,evidence_Human_Intruder_20260804_185512_ae6f26.jpg
+2026-08-05T09:56:06.265570,471bba31,29.979200,78.434800,Livestock (Intrusion),1,MEDIUM,violation,YES,evidence_Livestock_(Intrusion)_20260805_095606_630145.jpg
+2026-08-05T09:57:51.221742,255f8126,29.979200,78.434800,Human Intruder,1,MEDIUM,inside,YES,evidence_Human_Intruder_20260805_095751_be721e.jpg
+2026-08-05T09:57:53.034149,282c2fc5,29.979200,78.434800,Human Intruder,1,MEDIUM,inside,NO,THROTTLED
+2026-08-05T09:58:28.843200,4466db0c,29.979200,78.434800,Human Intruder,1,MEDIUM,inside,YES,evidence_Human_Intruder_20260805_095828_4c98d0.jpg

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroVision AI - Intelligent Waterlogging Detection System</title>
+    <meta name="description" content="AI-powered full-stack waterlogging and flood hazard detection system utilizing YOLO11 computer vision.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Top Navigation Bar -->
+    <header class="navbar" id="top-navbar">
+        <div class="nav-brand">
+            <div class="logo-container">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                    <circle cx="12" cy="14" r="3" stroke="currentColor" stroke-width="1.5"></circle>
+                </svg>
+                <div class="logo-glow"></div>
+            </div>
+            <div class="brand-text">
+                <span class="brand-name">HydroVision <span class="highlight-cyan">AI</span></span>
+                <span class="brand-tagline">Intelligent Waterlogging Detection System</span>
+            </div>
+        </div>
+
+        <div class="nav-status">
+            <div class="status-badge status-online" id="system-status">
+                <span class="status-dot"></span>
+                <span class="status-label">System Online</span>
+            </div>
+            <div class="model-badge">
+                <span class="model-icon">⚡</span>
+                <span class="model-name">YOLO11 Engine</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard Container -->
+    <main class="dashboard-grid">
+
+        <!-- Left Sidebar - Control Panel -->
+        <aside class="sidebar-left card-glass" id="control-sidebar">
+            <div class="sidebar-header">
+                <h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg> Control Operations</h3>
+            </div>
+
+            <div class="sidebar-actions">
+                <!-- File Input (Hidden) -->
+                <input type="file" id="video-file-input" accept="video/mp4,video/avi,video/mov,video/mkv,video/webm,image/jpeg,image/png,image/jpg" class="hidden-input">
+
+                <!-- Upload Media Button -->
+                <button type="button" class="btn btn-primary" id="btn-upload">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                    Upload Media
+                </button>
+
+                <!-- Process Media Button -->
+                <button type="button" class="btn btn-accent" id="btn-process" disabled>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                    Run Detection
+                </button>
+
+                <!-- Download Output Button -->
+                <button type="button" class="btn btn-secondary" id="btn-download" disabled>
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    Download Output
+                </button>
+
+                <!-- Reset Button -->
+                <button type="button" class="btn btn-outline" id="btn-reset">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+                    Reset Dashboard
+                </button>
+            </div>
+
+            <!-- Model Info Widget -->
+            <div class="model-info-box">
+                <div class="box-title">Model Specifications</div>
+                <div class="info-row">
+                    <span class="info-key">Weights Path:</span>
+                    <span class="info-val code-font" id="model-path">models/best.pt</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">Architecture:</span>
+                    <span class="info-val">YOLO11 Architecture</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">Inference:</span>
+                    <span class="info-val highlight-cyan">Image & Video</span>
+                </div>
+                <div class="info-row">
+                    <span class="info-key">Segmentation:</span>
+                    <span class="info-val highlight-cyan">Enabled</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Center Panel - Video Studio -->
+        <section class="panel-center card-glass" id="center-studio">
+            <div class="studio-header">
+                <div class="studio-tabs">
+                    <button class="tab-btn active" id="tab-upload">Upload Preview</button>
+                    <button class="tab-btn" id="tab-output">Processed Detection</button>
+                </div>
+                <div class="video-filename-tag" id="current-filename-tag">No media loaded</div>
+            </div>
+
+            <div class="video-workspace">
+                <!-- Dropzone Area -->
+                <div class="upload-dropzone" id="dropzone">
+                    <div class="dropzone-content">
+                        <div class="upload-icon-wrapper">
+                            <svg class="upload-cloud-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M17.5 19C20.5 19 23 16.5 23 13.5C23 10.7 20.9 8.4 18.2 8.1C17.6 4.6 14.6 2 11 2C6.6 2 3 5.6 3 10C1.3 10.9 0 12.6 0 14.5C0 17 2 19 4.5 19H17.5Z"/>
+                                <path d="M12 11V17M12 11L9 14M12 11L15 14"/>
+                            </svg>
+                        </div>
+                        <h3>Drag & Drop Image or Video File Here</h3>
+                        <p class="dropzone-sub">Supports MP4, AVI, MOV, MKV, WebM & JPG, PNG (Up to 100MB)</p>
+                        <button type="button" class="btn btn-glow" id="btn-browse">Browse Files</button>
+                    </div>
+                </div>
+
+                <!-- Media Player Container (Hidden by default until upload) -->
+                <div class="video-player-wrapper hidden" id="video-wrapper">
+                    <!-- Upload Input Media Players -->
+                    <video id="input-video-player" controls preload="auto" class="video-element hidden"></video>
+                    <img id="input-image-player" class="media-element hidden" alt="Input Image Preview">
+
+                    <!-- Processed Output Media Players -->
+                    <video id="output-video-player" controls preload="auto" class="video-element hidden"></video>
+                    <img id="output-image-player" class="media-element hidden" alt="Processed Output Image">
+
+                    <!-- Processing Loading Overlay -->
+                    <div class="processing-overlay hidden" id="processing-overlay">
+                        <div class="spinner-container">
+                            <div class="spinner-ring"></div>
+                            <div class="spinner-ring outer"></div>
+                            <svg class="radar-scan" viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="45" fill="none" stroke="rgba(6, 182, 212, 0.2)" stroke-width="2"/>
+                                <circle cx="50" cy="50" r="30" fill="none" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1.5"/>
+                                <line x1="50" y1="5" x2="50" y2="95" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1"/>
+                                <line x1="5" y1="50" x2="95" y2="50" stroke="rgba(6, 182, 212, 0.3)" stroke-width="1"/>
+                            </svg>
+                        </div>
+                        <h4 class="loading-title">YOLO11 Detection Engine Running...</h4>
+                        <p class="loading-sub">Analyzing water surface geometry & tracking vehicles frame-by-frame</p>
+                        <div class="progress-bar-container">
+                            <div class="progress-bar-fill" id="progress-bar"></div>
+                        </div>
+                        <span class="progress-pct" id="progress-text">Processing...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Right Sidebar - Real-Time Alerts -->
+        <aside class="sidebar-right card-glass" id="alerts-sidebar">
+            <div class="sidebar-header">
+                <h3>
+                    <svg class="icon alert-bell" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                    </svg>
+                    Real-Time Hazard Alerts
+                </h3>
+                <span class="badge-count" id="alert-count">0</span>
+            </div>
+
+            <div class="alerts-feed" id="alerts-container">
+                <div class="alerts-empty" id="alerts-empty-state">
+                    <svg class="empty-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                    </svg>
+                    <p>No active hazard alerts</p>
+                    <span>Upload & process a video to stream live detection events</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Bottom Panel - Telemetry Statistics Cards -->
+        <section class="panel-bottom" id="stats-panel">
+            <!-- Stat Card 1: Flood Status -->
+            <div class="stat-card card-glass" id="card-flood">
+                <div class="stat-icon-wrapper flood-theme">
+                    <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <span class="stat-label">Flood Status</span>
+                    <div class="stat-value" id="val-flood-status">Awaiting Video</div>
+                    <span class="stat-sub" id="sub-flood-status">Coverage: 0%</span>
+                </div>
+            </div>
+
+            <!-- Stat Card 2: Number of Vehicles -->
+            <div class="stat-card card-glass" id="card-vehicles">
+                <div class="stat-icon-wrapper vehicle-theme">
+                    <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="1" y="3" width="15" height="13"></rect>
+                        <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                        <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                        <circle cx="18.5" cy="18.5" r="2.5"></circle>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <span class="stat-label">Vehicles Detected</span>
+                    <div class="stat-value" id="val-vehicles">0</div>
+                    <span class="stat-sub">Cars, Buses & Trucks</span>
+                </div>
+            </div>
+
+            <!-- Stat Card 3: Number of Persons -->
+            <div class="stat-card card-glass" id="card-persons">
+                <div class="stat-icon-wrapper person-theme">
+                    <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <span class="stat-label">Pedestrians Detected</span>
+                    <div class="stat-value" id="val-persons">0</div>
+                    <span class="stat-sub">Persons in Inundated Zone</span>
+                </div>
+            </div>
+
+            <!-- Stat Card 4: Processing Time -->
+            <div class="stat-card card-glass" id="card-time">
+                <div class="stat-icon-wrapper time-theme">
+                    <svg class="stat-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <span class="stat-label">Processing Time</span>
+                    <div class="stat-value" id="val-time">0.0s</div>
+                    <span class="stat-sub" id="sub-fps">Speed: 0 FPS</span>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Toast Notification Overlay -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Dashboard JavaScript logic -->
+    <script src="/static/script.js"></script>
+</body>
+</html>

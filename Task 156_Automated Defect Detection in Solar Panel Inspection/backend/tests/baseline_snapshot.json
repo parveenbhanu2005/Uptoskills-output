@@ -1,0 +1,20 @@
+{
+  "model_filename": "best.pt",
+  "model_sha256": "94283e10abe638bf0ff50067a969e7b0bc134ea226a9ed5b329211d8b3f65745",
+  "model_size_bytes": 6252522,
+  "test_image": "test_panel.jpg",
+  "detection_count": 0,
+  "raw_detections": [],
+  "inference_time_ms": 95.49,
+  "statistics": {
+    "total_detections": 0,
+    "class_distribution": {},
+    "average_confidence": 0,
+    "highest_confidence": 0,
+    "lowest_confidence": 0,
+    "inference_time_ms": 95.49,
+    "model_filename": "best.pt",
+    "device": "cpu",
+    "input_resolution": "640x640"
+  }
+}

@@ -1,0 +1,14 @@
+Metric,Value
+Input document,C:\Users\Admin\tampering-detection\input\sample.png
+Reference document,
+Image width,1536
+Image height,1024
+SHA-256,54a6ec055e9bce09314a178fc9182d2d61b0ef74d07a695939507d29c68d5e1e
+OCR regions,141
+Text/layout anomalies,125
+Visual anomalies,0
+Changed area %,0
+ELA score,14.2046
+Suspicious regions,0
+Tampering confidence,0.0
+Risk level,LOW

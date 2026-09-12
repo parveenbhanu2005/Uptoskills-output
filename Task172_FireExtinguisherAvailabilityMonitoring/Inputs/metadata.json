@@ -1,0 +1,41 @@
+{
+  "test_suites": [
+    {
+      "id": 0,
+      "filename": "suite_00_synthetic_simulation.mp4",
+      "description": "Simulated multi-scenario corridor showing present, blocked, missing, and displaced states.",
+      "ground_truth_transitions": [
+        {"frame": 1, "status": "Present & Clear"},
+        {"frame": 52, "status": "Blocked", "details": "Blocked by moving shadow"},
+        {"frame": 81, "status": "Present & Clear", "details": "Shadow left zone"},
+        {"frame": 169, "status": "Blocked", "details": "Blocked by sliding box"},
+        {"frame": 201, "status": "Missing", "details": "Extinguisher removed from bracket"},
+        {"frame": 301, "status": "Missing & Displaced", "details": "Extinguisher placed at incorrect location"}
+      ]
+    },
+    {
+      "id": 1,
+      "filename": "suite_01_office_hallway_clear.mp4",
+      "description": "Real office hallway camera with a wall-mounted fire extinguisher.",
+      "ground_truth_transitions": [
+        {"frame": 25, "status": "Missing", "details": "No extinguisher detected near corridor bracket"}
+      ]
+    },
+    {
+      "id": 2,
+      "filename": "suite_02_warehouse_blocked_boxes.mp4",
+      "description": "CCTV camera of a warehouse corridor with cargo boxes blocking safety equipment.",
+      "ground_truth_transitions": [
+        {"frame": 25, "status": "Missing & Displaced", "details": "Extinguisher is displaced from its registered bracket location"}
+      ]
+    },
+    {
+      "id": 3,
+      "filename": "suite_03_lobby_missing_inspection.mp4",
+      "description": "Lobby safety walkthrough video showing an inspector checking empty extinguisher brackets.",
+      "ground_truth_transitions": [
+        {"frame": 25, "status": "Missing", "details": "Bracket is empty and safety inspection card is signed"}
+      ]
+    }
+  ]
+}

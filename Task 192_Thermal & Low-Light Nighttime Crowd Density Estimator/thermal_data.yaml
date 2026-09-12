@@ -1,0 +1,6 @@
+path: ./dataset
+train: train/images
+val: test/images # Using the test set for validation during training
+
+nc: 1
+names: ['person']

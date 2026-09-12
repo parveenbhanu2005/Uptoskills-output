@@ -1,0 +1,10 @@
+{
+  "total_frames": 1292,
+  "processing_time_sec": 112.83,
+  "average_fps": 11.45,
+  "total_incidents_logged": 51,
+  "incidents_by_severity": {
+    "CRITICAL": 8,
+    "WARNING": 43
+  }
+}

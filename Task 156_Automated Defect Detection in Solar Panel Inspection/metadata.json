@@ -1,0 +1,6 @@
+{
+  "name": "Solar Panel Inspection Platform",
+  "description": "Production-ready industrial AI inspection platform for solar panels with modular preprocessing, model management, and engineering reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
